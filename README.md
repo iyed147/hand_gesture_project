@@ -1,4 +1,4 @@
-﻿# ✋ Hand Gesture Detection
+# ✋ Hand Gesture Detection
 
 > 🔗 This project is a companion module of the [Adaptive AI Pong Game](https://github.com/iyed147/Adaptive_AI_Pong_Game) — where hand gestures are used to control the paddle in real time.
 
@@ -11,25 +11,10 @@ It detects hand landmarks via webcam and classifies gestures using a trained ML 
 
 ---
 
-## 🗂️ Project Structure
-
-```
-hand_gesture_project/
-├── collect_data.py            # Capture gesture data via webcam
-├── train_classifier.py        # Train ML model on collected data
-├── realtime_inference.py      # Real-time gesture detection
-├── gestures_dataset.csv       # Labeled landmark dataset
-├── best_gesture_model.joblib  # Trained classifier
-├── hand_landmarker.task       # MediaPipe hand landmark model
-└── requirements.txt
-```
-
----
-
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/iyedb/hand_gesture_project.git
+git clone https://github.com/iyed147/hand_gesture_project.git
 cd hand_gesture_project
 python -m venv venv
 venv\Scripts\activate
@@ -72,4 +57,4 @@ python realtime_inference.py
 
 This module is integrated into the **Adaptive AI Pong Game** —  
 a Q-learning based Pong game controlled by hand gestures in real time.  
-👉 [View the main project](https://github.com/iyedb/Adaptive_AI_Pong_Game)
+👉 [View the main project](https://github.com/iyed147/Adaptive_AI_Pong_Game)
